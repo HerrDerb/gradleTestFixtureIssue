@@ -6,7 +6,7 @@ plugins {
 dependencies {
     implementation project(':lib')
 
-    testImplementation(testFixtures(project(':lib')))
+    testImplementation(testFixtures(project(':lib'))) // comment out to make main compile
 }
 
 test {
